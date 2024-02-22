@@ -1,0 +1,146 @@
+html {
+    background-color:black;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.logo{
+    
+    border:solid whitesmoke 1px;
+    background-color:cornflowerblue;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+nav{
+    display:flex;
+    color: white;
+    background-color:rgba(38, 0, 255, 0.37);
+    border:solid white 2px;
+    border-radius: 20px;
+}
+
+.intro{
+    width: 80%;
+}
+
+.lista{
+    display:flex;
+    padding-left: 0px;
+
+}
+
+.lista li{
+    list-style: none;
+}
+
+.lista li a{
+    color:aliceblue;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.lista li a:hover{
+    background-color:rgb(133, 76, 160);
+    color:black
+}
+
+.text{
+    color: white;
+    background-color: rgb(22, 22, 122);
+    text-align: center;
+    border: solid white 2px;
+    border-radius: 20px;
+}
+
+.text h2 {
+    background-color: rgb(12, 12, 121);
+    border: solid white 2px;
+    margin-left: 475px;
+    margin-right: 475px;
+    border-radius: 10px;
+}
+
+.text p{
+    padding-right: 70px;
+    padding-left: 70px;
+    text-align: justify;
+}
+
+.imgtexto{
+    border: solid white;
+    border-radius: 10px;
+    margin:40px
+}
+
+.infocalc h2{
+    background-color: rgb(12, 12, 121);
+    margin-right: 500px;
+    padding-left: 11px;
+    border: solid white 2px;
+    border-radius: 10px;
+}
+
+.tutorial{
+    background-color: rgb(6, 6, 78);
+    padding: 10px;
+    border: solid white 2px;
+    border-radius: 20px;
+}
+.calculadora{
+    display:flex
+}
+
+.infocalc{
+    color: white;
+    text-align: justify;
+}
+
+.pesos{
+    justify-content: center;
+    display: flex;
+    border: solid white 2px;
+    border-radius: 20px;
+    
+    margin-right: 450px;
+    background-color: rgb(3, 3, 87);
+}
+
+.p{
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+
+.calcular{
+    color: white;
+    background-color: rgb(5, 5, 61);
+    border: solid white 2px;
+    border-radius: 20px;
+    margin-right: 100px;
+    margin-left: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: rgb(6, 6, 80);
+}
+
+.button{
+    background-color:brown;
+    border: solid black 2px;
+    color:white;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.button:hover{
+    background-color: white;
+    color:black;
+    font-size: 15px;
+}

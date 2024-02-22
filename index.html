@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFRN</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div class="logo"><img src="brasaoufrn.png" width="120px"></div>
+        <div class="intro">
+            <h1>
+                UFRN - Bacharelado em Ciência da Computação
+            </h1>
+            <hr>
+            <ul class="lista">
+                <li>
+                    <a href="https://www.ufrn.br/">UFRN</a>
+                </li>
+                <li>
+                    <a href="https://dimap.ufrn.br/">DIMAP</a>
+                </li>
+                <li>
+                    <a href="https://petcc.dimap.ufrn.br/">PETCC</a>
+                </li>
+                <li>
+                    <a href="https://www.metropoledigital.ufrn.br/portal/">IMD</a>
+                </li>
+            </ul> 
+        </div>
+    </nav>
+
+    <hr>
+
+    <div class="text">
+        <h2>Apresentação e História</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    
+        <img src="dimap.jpg" class="imgtexto"> <img src="pesquisando.jpg" width="305px" class="imgtexto"> 
+    </div>
+    
+    <hr>
+
+    <div class="calculadora">
+
+    <div class="infocalc">
+        <h2>Calculadora de médias:</h2>
+        <p class="tutorial">Para passar no curso de BCC (Bacharelado em Ciência da Computação), existe uma média ponderada para as suas notas no enem (Pesos disponiveis abaixo). Neste site, você pode ver sua média para este curso inserindo suas notas na calculadora a seguir (Lembre-se que a nota de corte é 649): </p>
+        <div class="pesos">
+        
+            <p class="p">
+                <strong>
+                    PESOS: 
+                </strong>
+            </p>
+        <ul>
+            <li>
+                MATEMÁTICA - 3.0
+            </li>
+            <li>
+                LINGUAGENS - 1.0
+            </li>
+            <li>
+                HUMANAS - 1.0
+            </li>
+            <li>
+                NATUREZAS - 2.0
+            </li>
+            <li>
+                REDAÇÃO - 1.5
+            </li>
+        </ul>
+        </div>
+    </div>
+
+    <div class="calcular">
+        <p><strong>Linguagens: </strong><input type="number" id="ling"></p>
+        <p><strong>Matemática e suas tecnologias: </strong><input type="number" id="mat"></p>
+        <p><strong>Ciências da natureza: </strong><input type="number" id="nat"></p>
+        <p><strong>Humanas: </strong><input type="number" id="hum"></p>
+        <p><strong>Redação: </strong><input type="number" id="red"></p>
+        <button type="button" class="button" id="botao" onclick="calcular()">Obter Resultado</button><br>
+        <div id="result"></div>
+    </div>
+    
+</div>
+</body>
+
+<footer>
+    <hr>
+    <div>
+        <p>Telefone - (84) 3342-2299 cccc@dimap.ufrn </p>
+        <p>Natal/RN - Brasil </p>
+        <p>2024, Universidade Federal do Rio Grande do Norte </p>
+    </div>
+</footer>
+</html>
